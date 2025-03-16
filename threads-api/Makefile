@@ -3,7 +3,8 @@ CFLAGS := -Wall -Werror -I../include
 
 SRCS   := thread_create.c \
 	thread_create_simple_args.c \
-	thread_create_with_return_args.c
+	thread_create_with_return_args.c \
+	thread_create_simple_args_mod.c
 
 OBJS   := ${SRCS:c=o}
 PROGS  := ${SRCS:.c=}
